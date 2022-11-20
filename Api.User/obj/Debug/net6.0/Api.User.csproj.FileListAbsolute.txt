@@ -1,0 +1,7 @@
+C:\Users\felix\OneDrive\Documentos\Universidad Poli\SEMESTRE 3\BLOQUE 2\INTEGRACION CONTINUA\escenario 3\Trabajo en Grupo\Api.User\Api.User\obj\Debug\net6.0\Api.User.csproj.AssemblyReference.cache
+C:\Users\felix\OneDrive\Documentos\Universidad Poli\SEMESTRE 3\BLOQUE 2\INTEGRACION CONTINUA\escenario 3\Trabajo en Grupo\Api.User\Api.User\obj\Debug\net6.0\Api.User.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felix\OneDrive\Documentos\Universidad Poli\SEMESTRE 3\BLOQUE 2\INTEGRACION CONTINUA\escenario 3\Trabajo en Grupo\Api.User\Api.User\obj\Debug\net6.0\Api.User.AssemblyInfoInputs.cache
+C:\Users\felix\OneDrive\Documentos\Universidad Poli\SEMESTRE 3\BLOQUE 2\INTEGRACION CONTINUA\escenario 3\Trabajo en Grupo\Api.User\Api.User\obj\Debug\net6.0\Api.User.AssemblyInfo.cs
+C:\Users\felix\OneDrive\Documentos\Universidad Poli\SEMESTRE 3\BLOQUE 2\INTEGRACION CONTINUA\escenario 3\Trabajo en Grupo\Api.User\Api.User\obj\Debug\net6.0\Api.User.csproj.CoreCompileInputs.cache
+C:\Users\felix\OneDrive\Documentos\Universidad Poli\SEMESTRE 3\BLOQUE 2\INTEGRACION CONTINUA\escenario 3\Trabajo en Grupo\Api.User\Api.User\obj\Debug\net6.0\Api.User.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\felix\OneDrive\Documentos\Universidad Poli\SEMESTRE 3\BLOQUE 2\INTEGRACION CONTINUA\escenario 3\Trabajo en Grupo\Api.User\Api.User\obj\Debug\net6.0\Api.User.MvcApplicationPartsAssemblyInfo.cache

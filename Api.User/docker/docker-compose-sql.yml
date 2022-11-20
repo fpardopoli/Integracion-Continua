@@ -1,0 +1,9 @@
+sqldata:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      - SA_PASSWORD=Rodrigo1120
+      - ACCEPT_EULA=Y  
+    volumes:
+        - e:\datos\volumen\mssql:/var/opt/mssql/data
+    ports:
+      - "1434:1434" 
