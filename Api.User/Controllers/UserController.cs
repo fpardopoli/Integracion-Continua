@@ -92,13 +92,9 @@ namespace User.Controllers
                 _context.User.UpdateRange(user!);
                 int Ire = await _context.SaveChangesAsync();
                 if (Ire > 0)
-                {
-                    svRta = new string[] { "Actualizó correctamente." };
-                }
+                {svRta = new string[] { "Actualizó correctamente." };}
                 else
-                {
-                    svRta = new string[] { "El registro no se actualizó." };
-                }
+                {svRta = new string[] { "El registro no se actualizó." };}
                 return Ok(svRta);
             }
             catch (Exception ex)
