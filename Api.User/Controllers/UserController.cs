@@ -49,7 +49,6 @@ namespace User.Controllers
         {
             try
             {
-
                 string[] svRta = new string[1];
                 Api.User.Core.Entities.User? user = new()
                 {
