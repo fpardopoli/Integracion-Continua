@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Universidad Poli\\SEMESTRE 3\\BLOQUE 2\\INTEGRACION CONTINUA\\escenario 3\\Trabajo en Grupo\\Api.User\\Api.User\\User.csproj": {}
+    "D:\\Universidad Poli\\SEMESTRE 3\\BLOQUE 2\\INTEGRACION CONTINUA\\escenario 7\\Integracion-Continua\\Api.User\\User.csproj": {}
   },
   "projects": {
-    "d:\\Universidad Poli\\SEMESTRE 3\\BLOQUE 2\\INTEGRACION CONTINUA\\escenario 3\\Trabajo en Grupo\\Api.User\\Api.User\\User.csproj": {
+    "D:\\Universidad Poli\\SEMESTRE 3\\BLOQUE 2\\INTEGRACION CONTINUA\\escenario 7\\Integracion-Continua\\Api.User\\User.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Universidad Poli\\SEMESTRE 3\\BLOQUE 2\\INTEGRACION CONTINUA\\escenario 3\\Trabajo en Grupo\\Api.User\\Api.User\\User.csproj",
+        "projectUniqueName": "D:\\Universidad Poli\\SEMESTRE 3\\BLOQUE 2\\INTEGRACION CONTINUA\\escenario 7\\Integracion-Continua\\Api.User\\User.csproj",
         "projectName": "User",
-        "projectPath": "d:\\Universidad Poli\\SEMESTRE 3\\BLOQUE 2\\INTEGRACION CONTINUA\\escenario 3\\Trabajo en Grupo\\Api.User\\Api.User\\User.csproj",
+        "projectPath": "D:\\Universidad Poli\\SEMESTRE 3\\BLOQUE 2\\INTEGRACION CONTINUA\\escenario 7\\Integracion-Continua\\Api.User\\User.csproj",
         "packagesPath": "C:\\Users\\felix\\.nuget\\packages\\",
-        "outputPath": "d:\\Universidad Poli\\SEMESTRE 3\\BLOQUE 2\\INTEGRACION CONTINUA\\escenario 3\\Trabajo en Grupo\\Api.User\\Api.User\\obj\\",
+        "outputPath": "D:\\Universidad Poli\\SEMESTRE 3\\BLOQUE 2\\INTEGRACION CONTINUA\\escenario 7\\Integracion-Continua\\Api.User\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

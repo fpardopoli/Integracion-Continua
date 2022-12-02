@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0ldoHmtn1LWIE2A5Am92JtYL13O3TICjSVQln9i/T9Gc/6F99PoGqjfq88+CbaEKGiMaOKubom7BU1r6h+beuw==",
+  "dgSpecHash": "v54SBYM6MaUraOjhXO4EXAr1GpV242OREaiZ4BClE5f+WJgtAN6MZZo2ll5l8akCIWTkYSaAFWkgIee2hjFVAQ==",
   "success": true,
-  "projectFilePath": "d:\\Universidad Poli\\SEMESTRE 3\\BLOQUE 2\\INTEGRACION CONTINUA\\escenario 3\\Trabajo en Grupo\\Api.User\\Api.User\\User.csproj",
+  "projectFilePath": "D:\\Universidad Poli\\SEMESTRE 3\\BLOQUE 2\\INTEGRACION CONTINUA\\escenario 7\\Integracion-Continua\\Api.User\\User.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\felix\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\felix\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

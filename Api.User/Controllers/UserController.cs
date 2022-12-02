@@ -49,7 +49,7 @@ namespace User.Controllers
         {
             try
             {
-                
+
                 string[] svRta = new string[1];
                 Api.User.Core.Entities.User? user = new()
                 {
@@ -61,11 +61,44 @@ namespace User.Controllers
                 int Ire = await _context.SaveChangesAsync();
                 if (Ire > 0)
                 {
-                    svRta = new string[] { "Guardo correctamente."};
+                    svRta = new string[] { "Guardo correctamente." };
                 }
                 else
                 {
-                    svRta = new string[] { "El registro no se guardo."};
+                    svRta = new string[] { "El registro no se guardo." };
+                }
+                return Ok(svRta);
+            }
+            catch (Exception ex)
+            {
+
+                return StatusCode(StatusCodes.Status500InternalServerError, $"Error: {ex?.Message}");
+            }
+        }
+
+
+        [HttpPut("UpdateUser")]
+        public async Task<ActionResult<string[]>> UpdateUser(ParameterUser ParameterUser)
+        {
+            try
+            {
+                string[] svRta = new string[1];
+                Api.User.Core.Entities.User? user = await _context.User.Where(x => x.Identification.Equals(ParameterUser.Identification)).FirstOrDefaultAsync();
+                if (user == null)
+                {
+                    return svRta = new string[] { $"Usuario no existe." };
+                }
+                user.Mail = ParameterUser.Mail;
+                user.Name = ParameterUser.Name;
+                _context.User.UpdateRange(user!);
+                int Ire = await _context.SaveChangesAsync();
+                if (Ire > 0)
+                {
+                    svRta = new string[] { "Actualizó correctamente." };
+                }
+                else
+                {
+                    svRta = new string[] { "El registro no se actualizó." };
                 }
                 return Ok(svRta);
             }
