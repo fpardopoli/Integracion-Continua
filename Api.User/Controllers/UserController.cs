@@ -83,7 +83,7 @@ namespace User.Controllers
             try
             {
                 string[] svRta = new string[1];
-                Api.User.Core.Entities.User? user = await _context.User.Where(x => x.Identification==ParameterUser.Identification).FirstOrDefaultAsync();
+                Api.User.Core.Entities.User? user = await _context.User.Where(x => x.Identification.Equals(ParameterUser.Identification)).FirstOrDefaultAsync();
                 if (user == null)
                 {
                     return svRta = new string[] { $"Usuario no existe." };
