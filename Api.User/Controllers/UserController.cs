@@ -60,7 +60,7 @@ namespace User.Controllers
                 int Ire = await _context.SaveChangesAsync();
                 if (Ire > 0)
                 {
-                    svRta = new string[] { "Guardo felix3 correctamente." };
+                    svRta = new string[] { "Guardo  correctamente." };
                 }
                 else
                 {
@@ -95,6 +95,32 @@ namespace User.Controllers
                 {svRta = new string[] { "Actualizó correctamente." };}
                 else
                 {svRta = new string[] { "El registro no se actualizó." };}
+                return Ok(svRta);
+            }
+            catch (Exception ex)
+            {
+
+                return StatusCode(StatusCodes.Status500InternalServerError, $"Error: {ex?.Message}");
+            }
+        }
+
+        [HttpDelete("DeleteUser")]
+        public async Task<ActionResult<string[]>> DeleteUser(ParameterUser ParameterUser)
+        {
+            try
+            {
+                string[] svRta = new string[1];
+                Api.User.Core.Entities.User? user = await _context.User.Where(x => x.Identification.Equals(ParameterUser.Identification)).FirstOrDefaultAsync();
+                if (user == null)
+                {
+                    return svRta = new string[] { $"Usuario no existe." };
+                }
+                _context.User.RemoveRange(user!);
+                int Ire = await _context.SaveChangesAsync();
+                if (Ire > 0)
+                { svRta = new string[] { "Eliminado correctamente." }; }
+                else
+                { svRta = new string[] { "El registro no se elimino." }; }
                 return Ok(svRta);
             }
             catch (Exception ex)
