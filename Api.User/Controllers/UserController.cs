@@ -60,7 +60,7 @@ namespace User.Controllers
                 int Ire = await _context.SaveChangesAsync();
                 if (Ire > 0)
                 {
-                    svRta = new string[] { "Guardo correctamente." };
+                    svRta = new string[] { "Guardo no correctamente." };
                 }
                 else
                 {
